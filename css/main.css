@@ -1,0 +1,34 @@
+:root {
+  /* Turquoise */
+  --main-color: #50aaa9;
+  /* analogs of turquoise */
+  --analog-color-1: #4D81B8;
+  --analog-color-2: #4A96B0;
+  --analog-color-3: #95B89B;
+  --analog-color-4: #619E7A;
+  /* shadows of turquoise */
+  --shadow-color-1: #4ED9CD;
+  --shadow-color-2: #326B6A;
+  --shadow-color-3: #6EBBBD;
+  --shadow-color-4: #449190;
+  /* color of text */
+  --text-color-dark: #1A0C29;
+  --text-color-light: #000 /* not yet */
+  
+}
+
+html {
+  background-color: var(--main-color);
+}
+
+.image {
+  max-width: 30rem;
+  background-color: var(--analog-color-1);
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  width: 50%;
+}
