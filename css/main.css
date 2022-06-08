@@ -21,6 +21,12 @@ html {
   background-color: var(--main-color);
 }
 
+.gradienttest {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 5rem;
+  height: 2rem;
+}
+
 .image {
   max-width: 30rem;
   background-color: var(--analog-color-1);
