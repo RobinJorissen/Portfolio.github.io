@@ -29,8 +29,17 @@ body {
   margin: 0;
   margin-top: 3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.5rem;
   font-weight: 700;
+}
+
+h1 {
+margin: 0;
+padding: 1rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 1rem;
 }
 
 nav {
@@ -39,6 +48,7 @@ nav {
   background: linear-gradient(0deg, rgba(80,170,169,0) 0%, rgba(80,170,169,0) 0%, rgba(80,170,169,1) 19%);
   position: fixed;
   top: 0;
+  font-size: 1.2rem;
   width: 100%;
 }
 
@@ -46,25 +56,49 @@ ul {
   margin: 0;
 }
 
-.flex-container {
+.flex__container {
   display: flex;
   padding: 0;
   justify-content: space-around;
+  align-items: center;
+}
+
+.flex__wrap {
+  flex-wrap: wrap;
 }
 
 li {
   padding: 1.5rem;
+  
   list-style-type: none;
+}
+
+nav div ul li:first-of-type {
+  padding: 0;
 }
 
 li:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+.service li {
+  max-width: 30%;
+  padding: 1rem;
+}
+
 a {
   padding: 1rem;
   color: var(--text-color-dark);
   text-decoration: none;
+}
+
+a img {
+  padding: 0.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.img__logo {
+  padding: 0;
 }
 
 .content {
