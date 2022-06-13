@@ -47,7 +47,16 @@ h1 {
   margin: 10rem 0;
 }
 
-.service__header {
+h2 {
+  margin-top: 5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.service__header,
+.portfolio__header {
   align-items: center;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 8px;
@@ -147,12 +156,28 @@ img {
   width: 50%;
 }
 
+.images__portfolio {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
 .icon {
 max-width: 100%;
 width: 4rem;
 }
 
+.project__collection {
+  margin-bottom: 5rem;
+}
+
+.project__collection p {
+  text-align: justify;
+}
+
 form {
+  background: rgba(255, 225, 225, 0.2);
   border-radius: 25px;
   border: 6px solid rgba(0, 0, 0, 0.3);
   box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
@@ -161,7 +186,7 @@ form {
   width: 40rem;
 }
 
-form h2 {
+form h3 {
   color: rgba(0, 0, 0, 0.3);
   font-size: 2rem;
   text-transform: uppercase;
